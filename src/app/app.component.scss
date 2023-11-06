@@ -1,0 +1,38 @@
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    .circle-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    button {
+      margin: 10px;
+      padding: 10px;
+    }
+  
+    .circle-white {
+      width: 50px;
+      height: 50px;
+      background-color: white;
+      border: 1px solid #000;
+      margin: 5px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  
+    .circle-grey {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: grey;
+      border: 1px solid #000;
+      margin: 5px;
+      cursor: pointer;
+    }
+  }
+  
